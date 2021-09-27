@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework: debug
+spring:
+  security:
+    user:
+      name: user
+      password: 123
+      roles: USER
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-security-test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 111111
+
